@@ -1,0 +1,33 @@
+.container{
+    @include flex(flex,space-around);
+    .left-container{
+        width:$size01;
+        height:$size01;
+        &:nth-child(1){
+            background-color:darkmagenta;
+        }
+    .title{
+        font-size: $fontsize01;
+        font-family:$fontfamily01;
+        &:hover{
+            color: blue;
+        }
+    .image{
+        width:$size01;
+        height:$size01;
+    }
+    }
+    .right-container{
+        background-color:$color01;
+        width:$size01;
+        height:$size01;
+        .title{
+            font-size: $fontsize01;
+            font-family:$fontfamily01;
+        }
+        .image{
+        width:$size01;
+        height:$size01;
+        width: 100px;
+        height: 100px;
+        }}}}
